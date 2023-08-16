@@ -1,6 +1,5 @@
-const {Router} = require("express")
-const {getLivros, getLivro, postLivro, patchLivro, deleteLivro} = require("../controladores/livro")
-const { deletaLivro } = require("../servicos/livro")
+const { Router } = require("express")
+const { getLivros, getLivro, postLivro, patchLivro, deleteLivro } = require("../controladores/livro")
 
 const router = Router()
 
